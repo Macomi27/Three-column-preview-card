@@ -78,3 +78,37 @@ button{
     border: none;
     font-weight: 600;
 }
+
+@media (max-width:1200px) {
+    .container{
+        width: 50%;
+        flex-direction: column;
+    }
+    .sedans{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .luxury{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+}
+
+@media (max-width:767px) {
+    .container{
+        width: 80%;
+        flex-direction: column;
+    }
+    .sedans{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .luxury{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+}
